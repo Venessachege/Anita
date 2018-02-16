@@ -16,12 +16,55 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
 #party{
-  background-color: 	#ff6600;
+  background-color:#F15A29;
+  height: 100px;
+  align-items: center;
 }
 #Happyhour{
   background-color: #d6d6c2;
+  height: 100px;
 }
 .img-thumbnail {
   padding: 2%;
+}
+#groove{
+  border-style:groove;
+}
+#leftborder{
+  border-left:groove;
+}
+#delivery{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.contacts{
+  background-image: url("/resources/assets/backgrounds/subscribe.jpg");
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.footer{
+    padding-top: 4%;
+    background-color: #F15A29;
+}
+.btn{
+  background-color: #F15A29;
+}
+.middle{
+  background-image: url("/resources/assets/backgrounds/foodsBg.jpg");
+}
+.colour{
+  background-color: white;
+  margin:8%;
+}
+.glyphicon-menu-right{
+  color: #F15A29;
+}
+.glyphicon-menu-left{
+  color: #F15A29;
 }
