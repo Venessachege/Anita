@@ -2,11 +2,26 @@
   background-image:url("/resources/assets/backgrounds/landing.jpg");
   background-size: cover;
 }
-img.align{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .jumbotron span{
   color: white;
+}
+.glyphicon glyphicon-menu-hamburger{
+  color: black;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#party{
+  background-color: 	#ff6600;
+}
+#Happyhour{
+  background-color: #d6d6c2;
+}
+.img-thumbnail {
+  padding: 2%;
 }
