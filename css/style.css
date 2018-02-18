@@ -20,18 +20,31 @@
 #party{
   background-color:#F15A29;
   height: 100px;
-  align-items: center;
+  text-align: center;
+  padding: 14%;
 }
 #Happyhour{
   background-color: #d6d6c2;
   height: 100px;
+  text-align: center;
+  padding: 14%;
 }
 .img-thumbnail {
   padding: 2%;
 }
 #groove{
   border-style:groove;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 200px;
+  box-shadow: 0 0 10px #000000;
 }
+#groove h3{
+  color: #F15A29
+}
+
 #leftborder{
   border-left:groove;
 }
@@ -67,4 +80,23 @@
 }
 .glyphicon-menu-left{
   color: #F15A29;
+}
+#breakfast{
+  padding-left:0%;
+  padding-right:0%;
+
+}
+#lunch{
+  padding-left:0%;
+  padding-right:0%;
+
+}
+#dinner{
+padding-left: 0%;
+padding-right: 0%;
+
+}
+.footer{
+  color: white;
+  
 }
