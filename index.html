@@ -30,7 +30,8 @@
     </div>
 
 
-    <div class="row" id="row2">
+    <div class="row" >
+      <div class="row2">
       <div class="col-md-3 parent">
         <div class="row" id="Happyhour">
           <p> Happy Hour</p>
@@ -50,6 +51,7 @@
       <div class="col-md-3" id="dinner">
         <img src="resources/assets/foodtop/dinner.jpg" alt="A lunch image">
            <div class="centered">Dinner</div>
+         </div>
       </div>
     </div><!--snapshots-->
     <div class="container">
@@ -60,15 +62,18 @@
             <img src="resources/assets/fastFood2.jpg" class="img img-responsive">
           </div>
         </div><!--thumbnail-->
-        <div class="col-md-6">
+
+        <div class="col-md-4">
           <h1>Fast food</h1>
           <p><strong>You 'll love our delicious food</strong></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti id doloribus assumenda, porro voluptate animi soluta dolorem molestias quos ea, nihil aut necessitatibus fugit aperiam atque praesentium cupiditate libero illum?</p>
           <button type="button" name="button" class="btn btn-success">View Gallery <span class="glyphicon glyphicon-arrow-right"></span></button>
         </div>
+        <div class="col-md-2"></div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
           <h1>Drinks</h1>
           <p><strong>We also produce delicious drinks</strong></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere cum accusamus laborum neque omnis. Nulla repellat, assumenda vel. Quam eum sequi illo asperiores saepe ipsa quae, nobis perspiciatis incidunt.</p>
@@ -82,7 +87,7 @@
         </div>
       </div>
     </div><!--main content-->
-</div>
+</DIV>
 <div class="container-fluid middle">
   <div class="container">
     <div class="row">
@@ -110,7 +115,8 @@
     <div class="row">
       <div class="container">
 
-          <div class="row" id="groove">
+          <div class="row" >
+            <div class="groove">
             <div class="col-md-8">
               <h3>Our Happy Customers </h3>
               <p><strong>George Richard</strong><p>
@@ -126,7 +132,7 @@
               <p>We are menu a little team of 7 members.Ut wisi enim ad minim veniam ,quis nos trudexer ci tation
                 ullamcorper suscipit lob ortis nisi ut aliquip ex ea commodo conse quat .Dusiau tem vel eum iruire dolor in.</p>
 
-
+              </div>
             </div>
           </div>
       </div>
@@ -138,8 +144,10 @@
         <div class="row">
           <div class="text-center">
             <h2 style="color:white;">Get our daily food items delivered to your email</h2>
-            <input type="text" placeholder="Your email">
-            <button type="button" class="btn btn-danger btn-lg">Subscribe</button>
+            <div class="Email">
+             <input type="email" id="myEmail" value=""  placeholder="Your email..">
+             <input type="submit" id="myBtn" onclick="myFunction()" value="Subscribe" size="20">
+         </div>
           </div>
         </div>
       </div>
@@ -148,10 +156,11 @@
      <div class="row">
        <div class="text-center">
          <img src="resources/assets/footerlogos/logo_white.png" alt="">MENU
-         <p>Thats What We Are</p>
+         <br><br>
          <img src="resources/assets/footerlogos/facebook.png" alt="">
          <img src="resources/assets/footerlogos/twitter.png" alt="">
         <img src="resources/assets/footerlogos/pinterest.png" alt="">
+        <br><br>
         <p>2016 menu restaurant</p>
        </div>
      </div>
