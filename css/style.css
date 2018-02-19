@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image:url("/resources/assets/backgrounds/landing.jpg");
+  background-image:url("../resources/assets/backgrounds/landing.jpg");
   background-size: cover;
   margin-bottom: opx;
 }
@@ -63,7 +63,7 @@
   color: white;
 }
 .contacts{
-  background-image: url("/resources/assets/backgrounds/subscribe.jpg");
+  background-image: url("../resources/assets/backgrounds/subscribe.jpg");
   background-size: cover;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -76,7 +76,7 @@
   background-color: #F15A29;
 }
 .middle{
-  background-image: url("/resources/assets/backgrounds/foodsBg.jpg");
+  background-image: url("../resources/assets/backgrounds/foodsBg.jpg");
 }
 .colour{
   background-color: white;
