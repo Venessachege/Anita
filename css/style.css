@@ -1,6 +1,7 @@
 .jumbotron{
   background-image:url("/resources/assets/backgrounds/landing.jpg");
   background-size: cover;
+  margin-bottom: opx;
 }
 
 .jumbotron span{
@@ -85,14 +86,18 @@
 #breakfast{
   color: white;
   margin-left: -1%;
+
+
 }
 #lunch{
   color: white;
   margin-left: -1.7%;
+
 }
 #dinner{
   color: white;
   margin-left: -1.7%;
+
 }
 #breakfast:hover{
 
@@ -156,9 +161,9 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-.row2{
+/*.row2{
 margin-top:-2%;
-}
+}*/
 .sidenav {
     height: 100%;
     width: 0;
