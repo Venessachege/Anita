@@ -17,21 +17,26 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+#row1{
+  width: 470px;
+
+}
 
 #party{
   background-color:#F15A29;
-  height: 100px;
+  height: 50px;
   text-align: center;
   padding: 14%;
 }
 #Happyhour{
   background-color: #d6d6c2;
-  height: 100px;
+  height: 50px;
   text-align: center;
   padding: 14%;
 }
 .img-thumbnail {
   padding: 2%;
+
 }
 .groove{
   border-style:groove;
@@ -85,18 +90,22 @@
 }
 #breakfast{
   color: white;
-  margin-left: -1%;
+  margin-left: -2.2%;
+  float: right;
 
 
 }
 #lunch{
   color: white;
-  margin-left: -1.7%;
+  margin-left: -2.1%;
+  float: right;
 
 }
 #dinner{
   color: white;
-  margin-left: -1.7%;
+  margin-left: -15%;
+  float:right;
+
 
 }
 #breakfast:hover{
